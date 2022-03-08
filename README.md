@@ -12,6 +12,10 @@
 
 
 
+src폴더의 `utf8_to_cp949_main.cpp`를 사용하면 바꾸었던 utf8 포맷으로 바꾸었던 cp949 파일을 다시 cp949 포맷으로 바꿀 수 있습니다.
+
+
+
 ---
 
 Build `main.cpp, cp949_to_utf8_table.cpp, cp949_to_utf8_table.h`. And then, make use of `windows_cp949_converter.bat` to convert cp949 files at one time.
@@ -24,3 +28,6 @@ usecase ex)
 ./windows_cp949_convert.bat cp949_files_folder my_converted_files_folder converter.exe
 ```
 
+
+
+you can use `utf8_to_cp949_main.cpp` to convert back the file into the cp949 format, which you converted into the utf8 format.
